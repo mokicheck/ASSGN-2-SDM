@@ -11,7 +11,7 @@ public class main {
         System.out.println("Описание: " + carWithLeatherSeats.getDescription());
         System.out.println("Стоимость: $" + carWithLeatherSeats.getCost());
 
-        // Добавляем декоратор для блютуз проигрывателя
+        // Добавляем декоратор для блютуз проигрывателя ()
         Car carWithBluetoothAudio = new BluetoothAudio(basicCar);
         System.out.println("Описание: " + carWithBluetoothAudio.getDescription());
         System.out.println("Стоимость: $" + carWithBluetoothAudio.getCost());
